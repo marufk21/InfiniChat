@@ -105,7 +105,7 @@ const App = () => {
           isResponseScreen ?
             <div className='h-[80vh] pb-4 overflow-y-auto overflow-x-hidden'>
               <div className="header pt-[25px] flex items-center justify-between w-[100vw] px-[300px]">
-                <h2 className='text-2xl'>AssistMe</h2>
+                <h2 className='text-2xl'>InfniChat</h2>
                 <button id='newChatBtn' className='bg-[#181818] p-[10px] rounded-[30px] cursor-pointer text-[14px] px-[20px]' onClick={newChat}>New Chat</button>
               </div>
               <div className="messages">
@@ -140,7 +140,7 @@ const App = () => {
 
             </div> :
             <div className="middle h-[80vh] flex items-center flex-col justify-center">
-              <h1 className='text-4xl'>AssistMe</h1>
+              <h1 className='text-4xl'>InfiniChat</h1>
               <div className="boxes mt-[30px] flex items-center gap-2">
                 <div className="card rounded-lg cursor-pointer transition-all hover:bg-[#201f1f] px-[20px] relative min-h-[20vh] bg-[#181818] p-[10px]">
                   <p className='text-[18px]'>What is coding ? <br />
